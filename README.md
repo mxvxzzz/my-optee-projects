@@ -38,7 +38,8 @@ export BARE_METAL=$OECORE_NATIVE_SYSROOT/usr/share/gcc-aarch64-none-elf/bin/aarc
 
 #### Build and Sign the TA
 make TA_DEV_KIT_DIR=$TA_DEV_KIT_DIR CROSS_COMPILE=$BARE_METAL
-This compilation outputs a signed binary tracking the unique TA UUID:
+
+#### This compilation outputs a signed binary tracking the unique TA UUID:
 
 UUID: 7d1e3d7b-abc5-4b77-8b31-abc3f5e2e432
 
