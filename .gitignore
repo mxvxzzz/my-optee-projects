@@ -1,0 +1,15 @@
+# ignore file compilation of OP-TEE
+*.o
+*.ta
+*.elf
+*.dmp
+*.map
+*.stripped.elf
+
+# ignore executables
+hello_tee
+tee_rng_session
+
+# ignore the repo optee-os and linaro example 
+optee_examples
+optee_os
