@@ -1,0 +1,46 @@
+[
+  {
+    "arguments": [
+      "/opt/st/stm32mp2/5.0.15-openstlinux-6.6-yocto-scarthgap-mpu-v26.02.18/sysroots/x86_64-ostl_sdk-linux/usr/bin/aarch64-ostl-linux/aarch64-ostl-linux-gcc",
+      "-c",
+      "-mcpu=cortex-a35+crc",
+      "-mbranch-protection=standard",
+      "--sysroot=/opt/st/stm32mp2/5.0.15-openstlinux-6.6-yocto-scarthgap-mpu-v26.02.18/sysroots/cortexa35-ostl-linux",
+      "-O2",
+      "-pipe",
+      "-g",
+      "-feliminate-unused-debug-types",
+      "-Wall",
+      "-O2",
+      "-I/opt/st/stm32mp2/5.0.15-openstlinux-6.6-yocto-scarthgap-mpu-v26.02.18/sysroots/cortexa35-ostl-linux/usr/include",
+      "-o",
+      "hello_tee",
+      "hello.c"
+    ],
+    "directory": "/local/home/tabkioum/hmac/tee",
+    "file": "/local/home/tabkioum/hmac/tee/hello.c",
+    "output": "/local/home/tabkioum/hmac/tee/hello_tee"
+  },
+  {
+    "arguments": [
+      "/opt/st/stm32mp2/5.0.15-openstlinux-6.6-yocto-scarthgap-mpu-v26.02.18/sysroots/x86_64-ostl_sdk-linux/usr/bin/aarch64-ostl-linux/aarch64-ostl-linux-gcc",
+      "-c",
+      "-mcpu=cortex-a35+crc",
+      "-mbranch-protection=standard",
+      "--sysroot=/opt/st/stm32mp2/5.0.15-openstlinux-6.6-yocto-scarthgap-mpu-v26.02.18/sysroots/cortexa35-ostl-linux",
+      "-O2",
+      "-pipe",
+      "-g",
+      "-feliminate-unused-debug-types",
+      "-Wall",
+      "-O2",
+      "-I/opt/st/stm32mp2/5.0.15-openstlinux-6.6-yocto-scarthgap-mpu-v26.02.18/sysroots/cortexa35-ostl-linux/usr/include",
+      "-o",
+      "tee_rng_session",
+      "tee_rng_session.c"
+    ],
+    "directory": "/local/home/tabkioum/hmac/tee",
+    "file": "/local/home/tabkioum/hmac/tee/tee_rng_session.c",
+    "output": "/local/home/tabkioum/hmac/tee/tee_rng_session"
+  }
+]
