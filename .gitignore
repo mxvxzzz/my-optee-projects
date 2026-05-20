@@ -5,6 +5,8 @@
 *.dmp
 *.map
 *.stripped.elf
+.*.d
+.*.cmd
 
 # ignore executables
 hello_tee
