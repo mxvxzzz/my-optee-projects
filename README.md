@@ -30,13 +30,13 @@ TAs run isolated inside the secure monitor and require a bare-metal toolchain (a
 
 cd ta_hmac/
 
-# Define the path to the OP-TEE OS user developer kit provided by the SDK
+#### Define the path to the OP-TEE OS user developer kit provided by the SDK
 export TA_DEV_KIT_DIR=$OECORE_TARGET_SYSROOT/usr/include/optee/export-user_ta_arm64
 
-# Define the bare-metal toolchain path
+#### Define the bare-metal toolchain path
 export BARE_METAL=$OECORE_NATIVE_SYSROOT/usr/share/gcc-aarch64-none-elf/bin/aarch64-none-elf-
 
-# Build and Sign the TA
+#### Build and Sign the TA
 make TA_DEV_KIT_DIR=$TA_DEV_KIT_DIR CROSS_COMPILE=$BARE_METAL
 This compilation outputs a signed binary tracking the unique TA UUID:
 
